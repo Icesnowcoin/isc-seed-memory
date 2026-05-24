@@ -1,0 +1,423 @@
+{
+  "project_meta": {
+    "name": "Ice Snow Coin",
+    "symbol": "ISC",
+    "chain": "BSC",
+    "contract_proxy": "0x11229a3f976566FA8a3ba462C432122f3B8876f6",
+    "contract_implementation": "0xf74F38cb35255b85514C49255f0EA29A013cB618",
+    "owner_address": "0xf946A6521D201F2C757562Add139E5635e2a80b3",
+    "contract_status": "代理合约+实现合约+Owner权限全部已放弃（Renounced）",
+    "category": "去中心化社区驱动型代币",
+    "status": "早期运营阶段，GameFi扩展中",
+    "seed_version": "2.1",
+    "seed_date": "2026-05-24"
+  },
+  "brand_identity": {
+    "theme": "冰雪、纯净、去中心化、分布式",
+    "logo_concept": "六角雪花，中心空白象征去中心化，六边形象征分布式节点",
+    "slogan": "待优化（当前：冰原之上，星火初燃）",
+    "colors": {
+      "primary": "冰蓝 / 纯白",
+      "accent": "极光紫"
+    },
+    "languages": [
+      "中文",
+      "英文",
+      "越南语",
+      "印地语",
+      "乌尔都语",
+      "阿拉伯语",
+      "德语"
+    ],
+    "logo_assets": {
+      "github_raw": "https://raw.githubusercontent.com/Icesnowcoin/ISC-Logo/main/isc_logo.png",
+      "website_png": "https://icesnowcoin.com/isc_logo.png",
+      "website_svg": "https://icesnowcoin.com/logo.svg"
+    }
+  },
+  "official_links": {
+    "website": "https://icesnowcoin.com",
+    "whitepaper": "https://icesnowcoin.org",
+    "gamefi_site": "https://icesnowcoin.it.com",
+    "apy_page": "https://icesnowcoin.com/apy/",
+    "github_org": "https://github.com/icesnowcoin",
+    "audit_reports": "https://github.com/Icesnowcoin/isc-audit-reports",
+    "snapshot_dao": "https://snapshot.org/#/s:icesnowcoin.eth",
+    "snapshot_create": "https://snapshot.org/#/create/snapshot",
+    "x_twitter": "https://x.com/icesnowocin",
+    "dexscreener": "https://dexscreener.com/search?q=ISC",
+    "bscscan_proxy": "https://bscscan.com/address/0x11229a3f976566FA8a3ba462C432122f3B8876f6",
+    "bscscan_implementation": "https://bscscan.com/address/0xf74F38cb35255b85514C49255f0EA29A013cB618",
+    "tokenlist": "https://icesnowcoin.com/tokenlist.json",
+    "email": "team@icesnowcoin.com",
+    "telegram": {
+      "channel": "https://t.me/IceSnowCoinCommunity",
+      "group": "https://t.me/IceSnowCoinChat",
+      "target_chat_ids": "-1003735391810",
+      "bots": {
+        "security_bot": "ISC去中心化安全讲堂（22主题，中英双语，每日12点推送）",
+        "price_bot": "ISC价格查询（PancakeSwap/DexScreener数据源）",
+        "gamefi_bot": "GameFi开发进度推送（N8N驱动）"
+      }
+    }
+  },
+  "contract_architecture": {
+    "proxy": {
+      "address": "0x11229a3f976566FA8a3ba462C432122f3B8876f6",
+      "status": "权限已放弃"
+    },
+    "implementation": {
+      "address": "0xf74F38cb35255b85514C49255f0EA29A013cB618",
+      "status": "权限已放弃"
+    },
+    "owner": {
+      "address": "0xf946A6521D201F2C757562Add139E5635e2a80b3",
+      "status": "权限已放弃"
+    },
+    "security_mechanisms": {
+      "anti_whale": {
+        "max_tx_amount": "0.5%",
+        "purpose": "保护持有者免受巨鲸攻击和市场操纵",
+        "status": "合约层面硬编码，不可更改"
+      },
+      "ownership_renounced": true,
+      "contract_immutable": true
+    },
+    "audit": {
+      "solidus_labs": "已提交，等待最终报告",
+      "honeypot": "已通过 ishoneypot.com",
+      "reports_repo": "https://github.com/Icesnowcoin/isc-audit-reports"
+    }
+  },
+  "tokenomics": {
+    "total_supply": {
+      "amount": 202600000,
+      "display": "202,600,000 ISC",
+      "type": "固定总量，不可增发",
+      "hard_cap": true
+    },
+    "distribution": {
+      "founding_team_vesting": {
+        "percentage": "20%",
+        "amount": 40520000,
+        "platform": "TeamFinance",
+        "url": "https://app.team.finance/token-vesting",
+        "lock_address": "0x63F9E5B760657DF65dAbC18f1A406282a8b98C7D",
+        "recipient_address": "0xF8A408495941ea30451Da613dC846Dcae47890f0",
+        "recipient_label": "ISC市场营销运营",
+        "vesting_type": "员工计划（Employee）",
+        "lock_duration": "24个月",
+        "release_type": "线性释放",
+        "release_start": "2026-04-20",
+        "release_end": "2028-04-20",
+        "next_release_date": "2026-05-30",
+        "monthly_release": 1662927.5,
+        "monthly_release_display": "1,662,927.50 ISC/月",
+        "tx_hash": "0xd646...97af",
+        "status": "进行中",
+        "chain": "BSC"
+      },
+      "liquidity": {
+        "dex": "PancakeSwap V3",
+        "lock_platform": "UNCX Network (Locker V3.3)",
+        "lock_type": "V3 Liquidity NFT (ERC-721)",
+        "total_locked_isc": 77105525.35,
+        "total_locked_percentage": "~38.06%",
+        "locks": [
+          {
+            "nft_id": "6747180",
+            "pair": "ISC/USDT",
+            "isc_amount": 6420725.35,
+            "usdt_amount": 2401.34,
+            "isc_ratio": "63%",
+            "usdt_ratio": "37%",
+            "unlock_in": "10 months",
+            "status": "Locked"
+          },
+          {
+            "nft_id": "6753758",
+            "pair": "ISC/USDT",
+            "isc_amount": 70684800,
+            "usdt_amount": 0,
+            "isc_ratio": "100%",
+            "usdt_ratio": "0%",
+            "unlock_in": "3 years and 11 months",
+            "status": "Locked",
+            "note": "V3单币区间仓位或界面精度问题"
+          }
+        ]
+      },
+      "community_ecosystem_marketing": {
+        "percentage": "~40%",
+        "note": "按路线图释放，包含国库、空投、生态建设、营销",
+        "treasury_subset": {
+          "address": "0x3B79D4A0bd73FCaB12DFEd34dA830b376A50e019",
+          "balance_isc": 49988000,
+          "balance_display": "4998.8万 ISC",
+          "percentage_of_total": "~24.7%",
+          "guardian": "5人多签钱包"
+        }
+      }
+    },
+    "staking": {
+      "frontend": "https://icesnowcoin.com/apy/",
+      "contract": "0x9014Be9d27b64a4cb889B9d0334740683F18185a",
+      "contract_verified": true,
+      "reward_pool_isc": 2026000,
+      "reward_pool_source": "从国库划拨2026000枚ISC",
+      "apy_rate": "10%",
+      "single_pools": {
+        "count": 4,
+        "status": "已激活并正常工作",
+        "type": "单币质押"
+      },
+      "lp_pools": {
+        "count": 4,
+        "pairs": [
+          "ISC-BNB",
+          "ISC-USDT",
+          "ISC-BUSD",
+          "ISC-CAKE"
+        ],
+        "status": "尚未激活",
+        "blocker": "流动性为PancakeSwap V3（LP凭证是ERC-721 NFT），APY合约需支持V3 NFT质押或额外建立V2流动性",
+        "priority": "高（影响GameFi经济设计）"
+      },
+      "apy_policy": {
+        "current_status": "暂不修改APY合约，不新建合约",
+        "lp_pools_plan": "LP池激活延后",
+        "future_plan": "后续提升4个单币池收益，并将APY质押收益接入GameFi中央银行",
+        "gamefi_integration": "玩家在GameFi打金的同时，中央银行自动计算并发放APY储蓄收益",
+        "priority": "GameFi原型优先，APY集成排期在Alpha之后"
+      }
+    }
+  },
+  "bitcoin_comparison": {
+    "narrative": "ISC是BSC上的比特币精神继承者",
+    "dimensions": [
+      {
+        "dimension": "供应上限",
+        "bitcoin": "21,000,000 BTC",
+        "isc": "202,600,000 ISC"
+      },
+      {
+        "dimension": "中心化控制",
+        "bitcoin": "中本聪消失，无人可改",
+        "isc": "所有权放弃，代码即法律"
+      },
+      {
+        "dimension": "创始人激励",
+        "bitcoin": "中本聪币未动",
+        "isc": "团队锁24月，2026-04-20开始线性释放"
+      },
+      {
+        "dimension": "网络保护",
+        "bitcoin": "PoW难度调整",
+        "isc": "0.5% maxTxAmount防巨鲸"
+      },
+      {
+        "dimension": "信任模型",
+        "bitcoin": "时间证明信任",
+        "isc": "审计+链上锁定证明信任"
+      },
+      {
+        "dimension": "治理模式",
+        "bitcoin": "无CEO，矿工共识",
+        "isc": "无CEO，Snapshot社区治理"
+      },
+      {
+        "dimension": "价值基础",
+        "bitcoin": "硬顶+去中心化=价值存储",
+        "isc": "固定供应+放弃所有权+防巨鲸=长期社区信任"
+      }
+    ]
+  },
+  "gamefi_masterplan": {
+    "codename": "ISC Metaverse",
+    "genre": "元宇宙 + 模拟经营 + 社交 + 契约系统",
+    "sub_genres": [
+      "模拟人生",
+      "城市建设",
+      "社交契约",
+      "工会体系"
+    ],
+    "reference_games": [
+      "Spring Valley",
+      "The Sims",
+      "Animal Crossing"
+    ],
+    "target_platforms": [
+      "Web (icesnowcoin.it.com)",
+      "TG Mini App (后续)",
+      "Mobile App (数据达标后)"
+    ],
+    "launch_languages": [
+      "中文",
+      "英文",
+      "越南语",
+      "德语"
+    ],
+    "core_gameplay": {
+      "onboarding": "免费创建角色，自定义外观（头发/身材/肤色/服装/表情/神态）",
+      "world": "开放城市，周边土地可认购，用于建造商店和基础设施",
+      "progression": "通过经营模拟人生赚取ISC",
+      "social": "契约系统：结婚、血缘关系、盟友关系、工会体系"
+    },
+    "economic_model": {
+      "dual_currency": true,
+      "primary_currency": "ISC（链上，硬顶，不可增发）",
+      "secondary_currency": "积分（游戏内，可通胀，兑换ISC比例动态下调）",
+      "exchange_mechanism": "游戏内中央银行负责ISC↔积分兑换，玩家充值/提现通过中央银行",
+      "revenue_split": {
+        "game_spending": "玩家使用ISC购买土地/建造/经营",
+        "treasury_share": "50%",
+        "marketing_share": "50%",
+        "treasury_usage": "社区营销、空投、运营、生态建设",
+        "marketing_usage": "游戏开发补偿、维护、后续迭代",
+        "note": "已锁定50/50，平衡社区质疑与开发激励"
+      },
+      "nft_integration": {
+        "land": "土地NFT，可交易，可建造",
+        "items": "道具NFT，部分影响经济",
+        "characters": "角色外观NFT，装饰+功能混合"
+      }
+    },
+    "ai_npc_system": {
+      "role": "城市常驻居民，非装饰性",
+      "economic_impact": "部分NPC参与交易，影响局部市场供需",
+      "player_interaction": "玩家可与NPC交易、建立关系"
+    },
+    "chain_architecture": {
+      "game_logic": "链下（保护玩家资金安全，降低Gas成本）",
+      "assets": "链上（土地/道具/角色NFT，ISC交易）",
+      "central_bank": "游戏内中央银行处理ISC和积分兑换",
+      "bridge": "玩家通过中央银行充值/提现ISC"
+    },
+    "target_users": "ISC现有持有者 + 外部GameFi玩家（两者兼顾，全面吸引新用户）",
+    "anti_whale": {
+      "inheritance": true,
+      "mechanism": "0.5%单笔上限（合约硬编码，游戏内交易继承）",
+      "additional": "防止大户垄断土地和核心资源"
+    },
+    "development_roadmap": {
+      "demo": "1周（核心玩法：角色创建+土地购买+基础建造+简单经营）",
+      "alpha": "2周（加入NPC交互+中央银行ISC↔积分兑换+多语言基础）",
+      "beta": "4-6周（完整元宇宙：契约系统+工会+AI NPC深度+全部NFT功能）",
+      "full_version": "Beta稳定后上线正式版，不再设定1个月死线",
+      "risk_note": "已接受分阶段建议：Demo优先验证核心循环，Alpha验证经济模型，Beta完善社交系统"
+    },
+    "budget_constraint": "单方案不超过2000 USDT",
+    "tech_stack": {
+      "chain": "BSC（锁定，不迁移）",
+      "hosting": "现有VPS（Ubuntu 24.04）",
+      "deployment": "GitHub + VPS自动部署",
+      "frontend": "icesnowcoin.it.com"
+    }
+  },
+  "ecosystem_products": {
+    "completed": [
+      "代币合约部署（代理+实现，三重权限放弃）",
+      "国库建立与7024.8万ISC转入（5人多签）",
+      "APY质押前端上线（4单币池激活，10% APY）",
+      "流动性UNCX V3锁定（~38.06%，NFT 6747180+6753758）",
+      "团队份额20% TeamFinance锁定24个月",
+      "官网品牌故事页（动态雪花背景）",
+      "安全讲堂TG机器人（22主题，中英双语）",
+      "ISC价格查询机器人",
+      "N8N工作流平台（n8n.icesnowcoin.xyz）",
+      "Agent集群记忆系统（Redis闭环）"
+    ],
+    "in_progress": [
+      "GameFi元宇宙开发（icesnowcoin.it.com）",
+      "Coingecko/CoinMarketCap信息提交",
+      "Solidus Labs安全审计（等待最终报告）",
+      "V3 LP质押池兼容方案"
+    ],
+    "pending": [
+      "中心化交易所上币（OKX首选，LBank已回绝）",
+      "社区KOL预热活动",
+      "官网多语言版本",
+      "品牌Logo收录DexScreener/Google搜索",
+      "UNCX锁仓证明可视化展示"
+    ]
+  },
+  "technical_infrastructure": {
+    "vps": {
+      "os": "Ubuntu 24.04 LTS",
+      "domains": [
+        "n8n.icesnowcoin.xyz",
+        "icesnowcoin.com",
+        "icesnowcoin.org",
+        "icesnowcoin.it.com"
+      ],
+      "services": [
+        "N8N工作流",
+        "TG机器人",
+        "Redis内存数据库",
+        "GameFi代理"
+      ]
+    },
+    "agent_cluster": {
+      "platform": "N8N",
+      "memory_system": "Redis共享记忆",
+      "ai_apis": [
+        "Grok",
+        "DeepSeek",
+        "Kimi",
+        "可灵"
+      ],
+      "current_sprint": "ISC元宇宙原型：世界观+角色系统+土地经济"
+    },
+    "constraints": {
+      "budget_limit": "拒绝任何超2000 USDT的方案",
+      "team_reality": "单核心创始人+多签社区成员，无全职团队",
+      "automation_first": "所有方案必须可自动化或社区协作",
+      "chain_locked": "BSC链，不迁移",
+      "time_pressure": "GameFi原型需尽快出Demo维持热度",
+      "resource_risk": "1个月完整版上线极具挑战，建议分阶段交付",
+      "apy_policy": "APY合约冻结，后续提升单币池收益并接入GameFi中央银行",
+      "revenue_split": "50%国库/50%营销，已锁定",
+      "gamefi_new_token": "GameFi基于现有ISC，禁止提议发行新代币"
+    }
+  },
+  "market_position": {
+    "cex_strategy": {
+      "lbank": "已回绝，4万USDT上币费过高",
+      "preferred": "OKX（未来社区成熟后接触）",
+      "current": "DEX为主，PancakeSwap V3"
+    },
+    "community": {
+      "size": "极早期，核心建设者少",
+      "growth_method": "空投增加Holder + KOL曝光 + GameFi引流",
+      "pain_point": "真人少，骗子多，需筛选真实建设者",
+      "x_bio": "ISC 发起人 | BSC 项目 | 财务透明度 | 招募共同建设者 | 仅限建设者私信"
+    },
+    "competitors": "同名ISC项目存在，需强化品牌区分度"
+  },
+  "communication_rules": {
+    "agent_behavior": [
+      "基于已有进展推进，不重复已完成工作",
+      "所有方案必须符合预算和团队现实约束",
+      "优先使用现有基础设施（VPS、TG、官网）",
+      "代码必须可部署到GitHub和VPS",
+      "多语言支持必须纳入设计初期",
+      "强调ISC去中心化属性：三重合约权限放弃、UNCX V3锁仓~38%、TeamFinance团队锁定20%、多签国库",
+      "品牌叙事必须引用比特币对比框架",
+      "GameFi设计必须兼容V3流动性现实（LP是NFT，非ERC-20）",
+      "经济模型必须考虑积分通胀和ISC硬顶的冲突",
+      "开发周期必须现实：1个月完整版极具挑战，建议分阶段",
+      "APY合约暂不修改，后续提升单币池收益并接入GameFi中央银行",
+      "游戏收入分配已锁定为50%国库/50%营销，Agent不得提议其他比例",
+      "开发必须分阶段：Demo(1周)→Alpha(2周)→Beta，禁止追求1个月完整版",
+      "GameFi中央银行未来需集成APY收益，设计时预留接口",
+      "所有Agent输出中提及代币时必须使用 'ISC' 或 '$ISC'，禁止使用ABC或其他名称",
+      "提及合约地址时必须使用官方地址，禁止编造"
+    ],
+    "output_format": {
+      "design": "结构化JSON + 自然语言摘要",
+      "code": "完整可运行代码 + 部署说明",
+      "art": "可灵API调用参数 + 风格描述",
+      "report": "Markdown格式，中英双语关键段落"
+    }
+  }
+}
