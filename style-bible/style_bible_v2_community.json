@@ -1,0 +1,68 @@
+{
+  "style_bible_v2_community": {
+    "project": "ISC GameFi - IceSnow Village",
+    "version": "2.0",
+    "last_updated": "2026-05-26",
+    "art_direction": "2D cozy village life illustration, Stardew Valley inspired, warm and inviting community aesthetic, clean bold line art, painterly soft textures, storybook illustration style",
+    "world_concept": "IceSnow Village is a real decentralized community built by ISC holders. Not a fantasy magic world, but a warm small town on eternal ice where real people live, work, and build together.",
+    "color_palette": {
+      "primary": {
+        "icy_blue": "#A5D8FF",
+        "frost_white": "#F0F8FF",
+        "aurora_green": "#7FFFD4",
+        "crystal_purple": "#E6E6FA"
+      },
+      "warm_accent": {
+        "cozy_amber": "#FFB347",
+        "warm_gold": "#FFD700",
+        "wood_brown": "#8B4513",
+        "fire_glow": "#FF6B35"
+      },
+      "life_colors": {
+        "coffee_brown": "#6F4E37",
+        "book_cream": "#FFFDD0",
+        "market_red": "#DC143C",
+        "plant_green": "#228B22"
+      }
+    },
+    "lighting_system": {
+      "ambient": "Soft diffused daylight with cool blue sky, warm golden light from windows and street lamps at dusk",
+      "indoor": "Warm incandescent lighting, cozy fireplace glow, soft shadows",
+      "outdoor": "Bright crisp arctic daylight, long soft shadows on snow, warm light spilling from building windows",
+      "atmosphere": "Community warmth contrasting with cold outside, inviting glow from interiors"
+    },
+    "texture_rules": {
+      "snow": "Soft fluffy snow, footprints visible, slightly stylized like storybook illustration",
+      "wood": "Warm weathered wood, community-built structures, hand-crafted feel",
+      "metal": "Practical tools and equipment, ISC hexagonal logo on community signs only (not magical)",
+      "fabric": "Cozy knitted textures, wool scarves, practical winter clothing",
+      "food": "Handmade baked goods, steam rising, appetizing and real"
+    },
+    "character_design_rules": {
+      "naming": "Real Chinese names or friendly nicknames, NO fantasy names like 'Frost Walker' or 'Ethereal Guardian'",
+      "occupation": "Real jobs: cafe owner, librarian, repairman, market vendor, teacher, student",
+      "clothing": "Practical winter clothes: down jackets, wool scarves, knitted hats, boots, NO magical robes or fantasy armor",
+      "personality": "Real human personalities: chatty, shy, hardworking, nosy, kind, grumpy but warm-hearted",
+      "age_range": "20-60 years old, diverse ages like real community",
+      "isc_connection": "ISC holders who believe in decentralization, NOT wizards with magic staffs"
+    },
+    "scene_design_rules": {
+      "building_type": "Real community buildings: cafe, library, workshop, market square, observatory, greenhouse",
+      "functionality": "Every building has a real purpose that community members use daily",
+      "signage": "Hand-painted wooden signs, community bulletin boards, warm lighting",
+      "decorations": "ISC hexagonal snowflake as community emblem on flags and signs, handmade decorations, potted plants inside windows",
+      "NO_fantasy_elements": "NO magic portals, NO floating castles, NO crystal spires, NO mythical creatures"
+    },
+    "prohibited_elements": [
+      "3d render", "realistic photo", "photorealistic texture",
+      "magic spells", "floating islands", "crystal castles", "mythical creatures",
+      "fantasy armor", "magical robes", "glowing staffs", "mana crystals",
+      "medieval knights", "dragons", "elves", "orcs",
+      "modern technology like cars or phones", "skyscrapers",
+      "hard black shadows", "photographic depth of field"
+    ],
+    "style_fingerprint": "ISC_VILLAGE_V2",
+    "perspective": "2.5D isometric for scenes, front-facing or 3/4 view for characters like storybook characters",
+    "mood": "Warm, welcoming, community-driven, cozy despite the cold, hopeful and human"
+  }
+}
